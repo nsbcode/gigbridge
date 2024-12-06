@@ -1,15 +1,12 @@
 import React from 'react'
-import LandingNavbar from './Navbar'
-import LandingHero from './Hero'
-import Navbar from './Navbar'
+import Navbar from '../../components/Navbar'
 import Hero from './Hero'
-import Feature from './Feature'
-import HowItWorks from './HowItWorks'
+
 
 const LandingPage = () => {
   return (
     <div>
-      <Navbar/>
+     <Navbar />
       <Hero/>
     </div>
   )
